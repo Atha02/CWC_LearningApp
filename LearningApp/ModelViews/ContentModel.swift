@@ -38,7 +38,7 @@ class ContentModel: ObservableObject {
         }
         
         //Parse the style data
-        let styleUrl = Bundle.main.url(forResource: "stlye", withExtension: "html")
+        let styleUrl = Bundle.main.url(forResource: "style", withExtension: "html")
         
         do {
             let styleData = try Data(contentsOf: styleUrl!)
